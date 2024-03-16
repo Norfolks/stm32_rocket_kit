@@ -16,7 +16,7 @@ void setup() {
   }
   
   radio.setAutoAck(false);
-  radio.disableCRC();
+  // radio.disableCRC();
   radio.setDataRate(1);
 
   radio.openReadingPipe(1, address);
