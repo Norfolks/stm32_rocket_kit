@@ -1,0 +1,187 @@
+2024-03-15 17:14:13,277 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 17:14:13,388 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 17:14:16,127 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 17:14:16,265 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 17:14:17,985 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 17:14:18,076 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 17:14:20,369 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 17:14:20,472 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 17:14:23,136 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 17:14:23,225 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 17:16:20,412 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 17:16:20,504 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 17:16:22,291 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 17:16:22,378 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 17:19:53,743 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 628772576 Bytes (1073741824)
+2024-03-15 17:20:00,987 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 669144800 Bytes (1073741824)
+2024-03-15 17:20:05,635 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 710039264 Bytes (1073741824)
+2024-03-15 17:20:05,881 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2024-03-15 17:20:05,881 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-15 17:20:05,881 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-15 17:20:05,881 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-15 17:20:05,882 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-15 17:20:05,882 [INFO] CodeGenerator:807 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.10.0.202311202037//db/
+2024-03-15 17:20:06,026 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/license.tmp_save
+2024-03-15 17:20:06,110 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/license.tmp
+2024-03-15 17:20:06,124 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/gpio.tmp_save
+2024-03-15 17:20:06,198 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/gpio.tmp
+2024-03-15 17:20:06,234 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_it.c_save
+2024-03-15 17:20:06,660 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_it.c
+2024-03-15 17:20:06,663 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_it.h_save
+2024-03-15 17:20:06,722 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_it.h
+2024-03-15 17:20:06,729 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_hal_msp.c_save
+2024-03-15 17:20:06,824 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_hal_msp.c
+2024-03-15 17:20:06,825 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/system.tmp_save
+2024-03-15 17:20:06,883 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/system.tmp
+2024-03-15 17:20:06,888 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_hal_conf.h_save
+2024-03-15 17:20:06,955 [INFO] CodeEngine:335 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_hal_conf.h
+2024-03-15 17:20:06,977 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/main.h_save
+2024-03-15 17:20:07,053 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/main.h
+2024-03-15 17:20:07,056 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/main.c_save
+2024-03-15 17:20:07,179 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/main.c
+2024-03-15 17:20:07,855 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 165mS.
+2024-03-15 17:20:07,858 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-15 17:20:08,408 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-03-15 17:20:10,432 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2574mS.
+2024-03-15 17:20:10,433 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-03-15 17:20:10,434 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-15 22:12:25,126 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 875103904 Bytes (1073741824)
+2024-03-15 22:12:27,050 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 903448184 Bytes (1073741824)
+2024-03-15 22:12:33,444 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 626044304 Bytes (1073741824)
+2024-03-15 22:12:33,662 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2024-03-15 22:12:33,663 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-15 22:12:33,663 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-15 22:12:33,663 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-15 22:12:33,663 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-15 22:12:33,664 [INFO] CodeGenerator:807 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.10.0.202311202037//db/
+2024-03-15 22:12:33,832 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/license.tmp_save
+2024-03-15 22:12:33,923 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/license.tmp
+2024-03-15 22:12:33,939 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/gpio.tmp_save
+2024-03-15 22:12:34,015 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/gpio.tmp
+2024-03-15 22:12:34,058 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_it.c_save
+2024-03-15 22:12:34,235 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_it.c
+2024-03-15 22:12:34,237 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_it.h_save
+2024-03-15 22:12:34,299 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_it.h
+2024-03-15 22:12:34,304 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_hal_msp.c_save
+2024-03-15 22:12:34,652 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_hal_msp.c
+2024-03-15 22:12:34,654 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/system.tmp_save
+2024-03-15 22:12:34,712 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/system.tmp
+2024-03-15 22:12:34,717 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_hal_conf.h_save
+2024-03-15 22:12:34,785 [INFO] CodeEngine:335 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_hal_conf.h
+2024-03-15 22:12:34,805 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/main.h_save
+2024-03-15 22:12:34,890 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/main.h
+2024-03-15 22:12:34,895 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/main.c_save
+2024-03-15 22:12:34,991 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/main.c
+2024-03-15 22:12:35,631 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 191mS.
+2024-03-15 22:12:35,633 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-15 22:12:36,120 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-03-15 22:12:38,134 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2501mS.
+2024-03-15 22:12:38,135 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-03-15 22:12:38,136 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-15 22:13:01,762 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 22:13:01,864 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 22:13:03,218 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 22:13:03,309 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 22:13:07,743 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 733169816 Bytes (1073741824)
+2024-03-15 22:13:09,423 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 760627864 Bytes (1073741824)
+2024-03-15 22:13:12,202 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 801327256 Bytes (1073741824)
+2024-03-15 22:13:12,471 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2024-03-15 22:13:12,471 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-15 22:13:12,471 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-15 22:13:12,471 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-15 22:13:12,472 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-15 22:13:12,472 [INFO] CodeGenerator:807 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.10.0.202311202037//db/
+2024-03-15 22:13:12,651 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/license.tmp_save
+2024-03-15 22:13:12,744 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/license.tmp
+2024-03-15 22:13:12,760 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/gpio.tmp_save
+2024-03-15 22:13:12,839 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/gpio.tmp
+2024-03-15 22:13:12,879 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_it.c_save
+2024-03-15 22:13:13,111 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_it.c
+2024-03-15 22:13:13,113 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_it.h_save
+2024-03-15 22:13:13,175 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_it.h
+2024-03-15 22:13:13,182 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_hal_msp.c_save
+2024-03-15 22:13:13,283 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_hal_msp.c
+2024-03-15 22:13:13,285 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/system.tmp_save
+2024-03-15 22:13:13,345 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/system.tmp
+2024-03-15 22:13:13,349 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_hal_conf.h_save
+2024-03-15 22:13:13,415 [INFO] CodeEngine:335 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_hal_conf.h
+2024-03-15 22:13:13,437 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/main.h_save
+2024-03-15 22:13:13,544 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/main.h
+2024-03-15 22:13:13,546 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/main.c_save
+2024-03-15 22:13:13,641 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/main.c
+2024-03-15 22:13:14,280 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 129mS.
+2024-03-15 22:13:14,282 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-15 22:13:14,843 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-03-15 22:13:16,687 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2405mS.
+2024-03-15 22:13:16,687 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-15 22:13:16,689 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-15 22:34:16,899 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 646977936 Bytes (1073741824)
+2024-03-15 22:34:18,599 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 677454176 Bytes (1073741824)
+2024-03-15 22:34:19,435 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 720904592 Bytes (1073741824)
+2024-03-15 22:34:19,604 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2024-03-15 22:34:19,604 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-15 22:34:19,604 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-15 22:34:19,604 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-15 22:34:19,605 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-15 22:34:19,605 [INFO] CodeGenerator:807 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.10.0.202311202037//db/
+2024-03-15 22:34:19,741 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/license.tmp_save
+2024-03-15 22:34:19,817 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/license.tmp
+2024-03-15 22:34:19,830 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/gpio.tmp_save
+2024-03-15 22:34:19,899 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/gpio.tmp
+2024-03-15 22:34:19,933 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_it.c_save
+2024-03-15 22:34:20,178 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_it.c
+2024-03-15 22:34:20,181 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_it.h_save
+2024-03-15 22:34:20,238 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_it.h
+2024-03-15 22:34:20,243 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_hal_msp.c_save
+2024-03-15 22:34:20,334 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_hal_msp.c
+2024-03-15 22:34:20,336 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/system.tmp_save
+2024-03-15 22:34:20,395 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/system.tmp
+2024-03-15 22:34:20,400 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_hal_conf.h_save
+2024-03-15 22:34:20,467 [INFO] CodeEngine:335 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_hal_conf.h
+2024-03-15 22:34:20,487 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/main.h_save
+2024-03-15 22:34:20,566 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/main.h
+2024-03-15 22:34:20,569 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/main.c_save
+2024-03-15 22:34:20,663 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/main.c
+2024-03-15 22:34:21,323 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 200mS.
+2024-03-15 22:34:21,325 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-15 22:34:21,858 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-03-15 22:34:24,261 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2936mS.
+2024-03-15 22:34:24,262 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-15 22:34:24,263 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-03-15 22:59:16,291 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 22:59:16,414 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 22:59:17,737 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 22:59:17,829 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-15 22:59:20,339 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 895215272 Bytes (1073741824)
+2024-03-15 22:59:21,904 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 658360960 Bytes (1073741824)
+2024-03-15 22:59:24,301 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 701352576 Bytes (1073741824)
+2024-03-15 22:59:24,476 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2024-03-15 22:59:24,476 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-15 22:59:24,476 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-15 22:59:24,476 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-15 22:59:24,476 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-15 22:59:24,477 [INFO] CodeGenerator:807 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.10.0.202311202037//db/
+2024-03-15 22:59:24,620 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/license.tmp_save
+2024-03-15 22:59:24,696 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/license.tmp
+2024-03-15 22:59:24,708 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/gpio.tmp_save
+2024-03-15 22:59:24,776 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/gpio.tmp
+2024-03-15 22:59:24,811 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_it.c_save
+2024-03-15 22:59:25,195 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_it.c
+2024-03-15 22:59:25,197 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_it.h_save
+2024-03-15 22:59:25,259 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_it.h
+2024-03-15 22:59:25,267 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_hal_msp.c_save
+2024-03-15 22:59:25,364 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/stm32f4xx_hal_msp.c
+2024-03-15 22:59:25,365 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/system.tmp_save
+2024-03-15 22:59:25,422 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/MXTmpFiles/system.tmp
+2024-03-15 22:59:25,426 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_hal_conf.h_save
+2024-03-15 22:59:25,493 [INFO] CodeEngine:335 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/stm32f4xx_hal_conf.h
+2024-03-15 22:59:25,514 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/main.h_save
+2024-03-15 22:59:25,590 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Inc/main.h
+2024-03-15 22:59:25,593 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/main.c_save
+2024-03-15 22:59:25,719 [INFO] CodeEngine:279 - Generated code: /Users/Nick/Projects/STM32CubeIDE/workspace_1.14.0/rocket_code/Core/Src/main.c
+2024-03-15 22:59:26,349 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 173mS.
+2024-03-15 22:59:26,353 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-15 22:59:27,015 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-03-15 22:59:29,083 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2730mS.
+2024-03-15 22:59:29,084 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-03-15 22:59:29,088 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
