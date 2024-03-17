@@ -15,8 +15,7 @@ void setup() {
     while(1) {}
   }
   
-  radio.setAutoAck(false);
-  // radio.disableCRC();
+  radio.setAutoAck(true);
   radio.setDataRate(1);
 
   radio.openReadingPipe(1, address);
@@ -28,7 +27,7 @@ void setup() {
 
 void loop() {
   if (radio.available()) {
-    char text[32] = "";
+    char text[33] = ""; // Max size is 32 but last byte is for debug string ending.
     radio.read(&text, sizeof(text));
     Serial.println(text);
   }

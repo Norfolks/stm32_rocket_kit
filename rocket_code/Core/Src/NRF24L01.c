@@ -148,7 +148,7 @@ void nrf24_reset(uint8_t REG)
 	nrf24_WriteReg(EN_AA, 0x3F);
 	nrf24_WriteReg(EN_RXADDR, 0x03);
 	nrf24_WriteReg(SETUP_AW, 0x03);
-	nrf24_WriteReg(SETUP_RETR, 0x03);
+	nrf24_WriteReg(SETUP_RETR, 0x00);
 	nrf24_WriteReg(RF_CH, 0x02);
 	nrf24_WriteReg(RF_SETUP, 0x0E);
 	nrf24_WriteReg(STATUS, 0x00);
@@ -220,6 +220,12 @@ void NRF24_TxMode (uint8_t *Address, uint8_t channel)
 
 	nrf24_WriteRegMulti(TX_ADDR, Address, 5);  // Write the TX address
 
+	// Configure ACK recieve address
+	uint8_t en_rxaddr = nrf24_ReadReg(EN_RXADDR);
+	en_rxaddr = en_rxaddr | 1;
+	nrf24_WriteReg (EN_RXADDR, en_rxaddr);
+	nrf24_WriteRegMulti(RX_ADDR_P0, Address, 5);
+
 
 	// power up the device
 	uint8_t config = nrf24_ReadReg(CONFIG);
@@ -230,6 +236,10 @@ void NRF24_TxMode (uint8_t *Address, uint8_t channel)
 //	config = config & (0xF2);    // write 0 in the PRIM_RX, and 1 in the PWR_UP, and all other bits are masked
 	nrf24_WriteReg (CONFIG, config);
 
+//	uint8_t auto_ack = nrf24_ReadReg(EN_AA);
+	uint8_t auto_ack = 0x3f; // Activate auto ack for all pipes
+	nrf24_WriteReg (EN_AA, auto_ack);
+	nrf24_WriteReg (SETUP_RETR, 30); // 0 retransmission attempts with 1000us delay
 	// Enable the chip after configuring the device
 	CE_Enable();
 }
@@ -256,21 +266,31 @@ uint8_t NRF24_Transmit (uint8_t *data)
 
 	HAL_Delay(1);
 
+	// If max retranmission is reached, flush the MAX_RT flag
+	uint8_t status = nrf24_ReadReg(STATUS);
+	if (status & (1 << 4)) {
+		status = (status | (1 << 4)); // Actually not needed because this bit is already set, but reset is done by writing 1
+		nrf24_WriteReg(STATUS, status);
+		flush_tx_fifo();
+	}
+
 	uint8_t fifostatus = nrf24_ReadReg(FIFO_STATUS);
 
 	// check the fourth bit of FIFO_STATUS to know if the TX fifo is empty
 	if ((fifostatus&(1<<4)) && (!(fifostatus&(1<<3))))
 	{
-		cmdtosend = FLUSH_TX;
-		nrfsendCmd(cmdtosend);
-
-		// reset FIFO_STATUS
-		nrf24_reset (FIFO_STATUS);
-
+		flush_tx_fifo();
 		return 1;
 	}
 
 	return 0;
+}
+
+void flush_tx_fifo() {
+	uint8_t cmdtosend = FLUSH_TX;
+	nrfsendCmd(cmdtosend);
+	// reset FIFO_STATUS
+	nrf24_reset (FIFO_STATUS);
 }
 
 
