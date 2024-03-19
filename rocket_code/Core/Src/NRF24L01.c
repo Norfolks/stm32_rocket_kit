@@ -220,7 +220,7 @@ void NRF24_TxMode (uint8_t *Address, uint8_t channel)
 
 	nrf24_WriteRegMulti(TX_ADDR, Address, 5);  // Write the TX address
 
-	// Configure ACK recieve address
+	// Configure ACK recieve address and 0 pipe
 	uint8_t en_rxaddr = nrf24_ReadReg(EN_RXADDR);
 	en_rxaddr = en_rxaddr | 1;
 	nrf24_WriteReg (EN_RXADDR, en_rxaddr);
@@ -236,10 +236,16 @@ void NRF24_TxMode (uint8_t *Address, uint8_t channel)
 //	config = config & (0xF2);    // write 0 in the PRIM_RX, and 1 in the PWR_UP, and all other bits are masked
 	nrf24_WriteReg (CONFIG, config);
 
-//	uint8_t auto_ack = nrf24_ReadReg(EN_AA);
-	uint8_t auto_ack = 0x3f; // Activate auto ack for all pipes
-	nrf24_WriteReg (EN_AA, auto_ack);
-	nrf24_WriteReg (SETUP_RETR, 30); // 0 retransmission attempts with 1000us delay
+	nrf24_WriteReg (EN_AA,  0x3f); // Activate auto ack for all pipes
+	nrf24_WriteReg (SETUP_RETR, 0x30); // 0 retransmission attempts with 1000us delay
+	nrf24_WriteReg(FEATURE, (1<<1)|(1<<2)); // Enable dynamic payload length and payload with ACK
+
+	nrf24_WriteReg(DYNPD, (1<<1)|1); // Enable dynamic payload length for 1&2 pipes
+
+	// Activate R_RX_PL_WID register feature
+	uint8_t cmdtosend[] = {ACTIVATE, 0x73};
+	HAL_SPI_Transmit(NRF24_SPI, cmdtosend, 2, 100);
+
 	// Enable the chip after configuring the device
 	CE_Enable();
 }
@@ -334,15 +340,42 @@ void NRF24_RxMode (uint8_t *Address, uint8_t channel)
 }
 
 
+void NRF24_Receive_ACK_Payload(uint8_t *data, uint8_t* data_size) {
+	uint8_t cmdtosend = 0;
+
+	// select the device
+	CS_Select();
+
+//	 Receive the payload size
+	cmdtosend = R_RX_PL_WID;
+	HAL_SPI_Transmit(NRF24_SPI, &cmdtosend, 1, 100);
+	HAL_SPI_Receive(NRF24_SPI, data_size, 1, 1000);
+//	 Receive payload
+	if ( *data_size > 0) {
+		// Required CSN transition between different commands
+		CS_UnSelect();
+		CS_Select();
+
+		cmdtosend = R_RX_PAYLOAD;
+		HAL_SPI_Transmit(NRF24_SPI, &cmdtosend, 1, 100);
+		HAL_SPI_Receive(NRF24_SPI, data, 32, 1000);
+	}
+
+
+	// Unselect the device
+	CS_UnSelect();
+	HAL_Delay(1);
+	cmdtosend = FLUSH_RX;
+	nrfsendCmd(cmdtosend);
+}
+
+
 uint8_t isDataAvailable (int pipenum)
 {
 	uint8_t status = nrf24_ReadReg(STATUS);
 
-	if ((status&(1<<6))&&(status&(pipenum<<1)))
+	if ((status&(1<<6))&&((status&(pipenum<<1))==pipenum))
 	{
-
-		nrf24_WriteReg(STATUS, (1<<6));
-
 		return 1;
 	}
 

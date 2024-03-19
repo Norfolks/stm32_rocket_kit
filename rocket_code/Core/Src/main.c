@@ -101,7 +101,7 @@ int main(void)
 
   NRF24_Init();
   NRF24_TxMode(TxAddress, 76);
-//  NRF24_RxMode(RxAddress, 10);
+
 
   /* USER CODE END 2 */
 
@@ -122,7 +122,19 @@ int main(void)
 
 	if (NRF24_Transmit(TxData) == 1)
 	{
+
+		uint8_t dsize = 0;
+		NRF24_Receive_ACK_Payload(data, &dsize);
+		if(data[0] == 1) {
+			HAL_GPIO_TogglePin(LED_EE_GPIO_Port, LED_EE_Pin);
+		}
+		if(isDataAvailable(0) == 1){
+
+
+
+		}
 		HAL_GPIO_TogglePin(LED_TT_GPIO_Port, LED_TT_Pin);
+
 	}
 
 	HAL_Delay(1000);
@@ -231,17 +243,17 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(LED_TT_GPIO_Port, LED_TT_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, LED_TT_Pin|LED_EE_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, NRF_CE_Pin|NRF_CSN_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : LED_TT_Pin */
-  GPIO_InitStruct.Pin = LED_TT_Pin;
+  /*Configure GPIO pins : LED_TT_Pin LED_EE_Pin */
+  GPIO_InitStruct.Pin = LED_TT_Pin|LED_EE_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(LED_TT_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /*Configure GPIO pins : NRF_CE_Pin NRF_CSN_Pin */
   GPIO_InitStruct.Pin = NRF_CE_Pin|NRF_CSN_Pin;
