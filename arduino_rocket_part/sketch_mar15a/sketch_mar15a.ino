@@ -22,7 +22,7 @@ void setup() {
   radio.setDataRate(1);
 
   radio.openReadingPipe(1, address);
-  radio.setPALevel(RF24_PA_MIN);
+  radio.setPALevel(RF24_PA_MAX);
   printf_begin();
   radio.printDetails();
   radio.startListening();

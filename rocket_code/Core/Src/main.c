@@ -57,14 +57,9 @@ static void MX_SPI1_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint8_t RxAddress[] = {0x00,0xDD,0xCC,0xBB,0xAA};
-//uint8_t RxData[32];
-
-
-uint8_t data[50];
-
+uint8_t data[33];
 uint8_t TxAddress[] = {0xEE,0xDD,0xCC,0xBB,0xAA};
-uint8_t TxData[] = "Big message to test with 1234567";
+uint8_t TxData[] = "Big message to test with 1234567"; // Max message length 32 bytes
 
 /* USER CODE END 0 */
 
@@ -100,7 +95,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   NRF24_Init();
-  NRF24_TxMode(TxAddress, 76);
+  NRF24_TxMode_with_ACK_Payload(TxAddress, 76);
 
 
   /* USER CODE END 2 */
@@ -115,28 +110,20 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-//	HAL_GPIO_WritePin(LED_TT_GPIO_Port, LED_TT_Pin, 1);
-//	HAL_GPIO_TogglePin(LED_TT_GPIO_Port, LED_TT_Pin);
-//	HAL_Delay(500);
-
 
 	if (NRF24_Transmit(TxData) == 1)
 	{
 
-		uint8_t dsize = 0;
-		NRF24_Receive_ACK_Payload(data, &dsize);
-		if(data[0] == 1) {
-			HAL_GPIO_TogglePin(LED_EE_GPIO_Port, LED_EE_Pin);
+		if (isDataAvailable(0) == 1) {
+			uint8_t dsize = 0;
+			NRF24_Receive_ACK_Payload(data, &dsize);
+			if(data[0] == 1) {
+				HAL_GPIO_TogglePin(LED_EE_GPIO_Port, LED_EE_Pin);
+			}
 		}
-		if(isDataAvailable(0) == 1){
 
-
-
-		}
 		HAL_GPIO_TogglePin(LED_TT_GPIO_Port, LED_TT_Pin);
-
 	}
-
 	HAL_Delay(1000);
   }
   /* USER CODE END 3 */
